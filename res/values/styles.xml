@@ -42,14 +42,14 @@
 	</style>
 
     <!-- style for the tabs -->
-    <style name="MyActionBarTabStyle" parent="android:style/Widget.Holo.Light.ActionBarView_TabView">
+    <style name="MyActionBarTabStyle" parent="android:style/Widget.Holo.Light.ActionBar.TabView">
         <item name="android:background">@drawable/actionbar_tab_bg</item>
         <item name="android:paddingLeft">32dp</item>
         <item name="android:paddingRight">32dp</item>
     </style>
 	
 	<!-- style the list navigation -->
-	<style name="MyDropDownNav" parent="android:style/Widget.Holo.Light.Spinner.DropDown.ActionBar">
+	<style name="MyDropDownNav" parent="android:style/Widget.Holo.Light.Spinner">
 		<item name="android:background">@drawable/ad_spinner_background_holo_light</item>
 		<item name="android:popupBackground">@drawable/ad_menu_dropdown_panel_holo_light</item>
 		<item name="android:dropDownSelector">@drawable/ad_selectable_background</item>
